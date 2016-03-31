@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'XTRestLayer'
-  s.version  = '0.0.4'
+  s.version  = '0.0.5'
   s.platform = :ios
   s.license = 'MIT'
   s.summary  = 'Xaton iOS Rest lib'
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors   = {
     'Xaton' => 'http://xaton.com'
   }
-  s.source = { :git => "https://github.com/ManenschijnJaap/XTRestLayer.git", :branch => 'master'}
+  s.source = { :git => "https://github.com/ManenschijnJaap/XTRestLayer.git", :tag => '0.0.5'}
   s.source_files = 'XTRestLayerDemo/XTRestLayerDemo/XTRestLayer/**/{XT,AF}*.{h,m}'
   s.requires_arc = true
   s.subspec 'no-arc' do |sp|
