@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors   = {
     'Xaton' => 'http://xaton.com'
   }
-  s.source = { :git => "https://github.com/ManenschijnJaap/XTRestLayer.git", :branch => ‘master’ }
+  s.source = { :git => "https://github.com/ManenschijnJaap/XTRestLayer.git", :branch => 'master'}
   s.source_files = 'XTRestLayerDemo/XTRestLayerDemo/XTRestLayer/**/{XT,AF}*.{h,m}'
   s.requires_arc = true
   s.subspec 'no-arc' do |sp|
